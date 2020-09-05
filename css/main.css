@@ -158,3 +158,10 @@ box-shadow: 0 0 0 2px rgb(105,118,244);
 transition: box-shadow 0.2s;
 }
 
+.font-1 {
+  font-family: din-2014 !important;
+}
+.font-2 {
+  font-family: roc-grotesk, sans-serif !important;
+}
+
