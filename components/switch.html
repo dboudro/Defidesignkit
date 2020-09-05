@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@1.4.6/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="h-screen overflow-hidden flex items-center justify-center" style="background: #edf2f7;">
+    <!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="btn.css" />
+      <title>Boton con tailwindcss</title>
+     <style>
+     	:root {
+   --bg-btn: #fed7d7;
+   --btn-color: #e53e3e;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#checkbox:checked ~ .btn-change::before {
+   transition: 0.3s;
+   transform: translateX(23px);
+}
+
+.btn-change {
+   background-color: var(--bg-btn);
+}
+
+.btn-change::before {
+   content: '';
+   display: block;
+   width: 17px;
+   height: 17px;
+   border-radius: 50%;
+   background-color: var(--btn-color);
+   transition: 0.3s;
+   transform: translateX(0);
+}
+
+     </style>
+   </head>
+   <body class="w-screen h-screen flex justify-center items-center bg-gray-100">
+      <div class="btn-status">
+         <input type="checkbox" name="checkbox" id="checkbox" class="hidden" />
+         <label
+            for="checkbox"
+            class="btn-change flex items-center p-1 rounded-lg w-12 h-6 cursor-pointer"
+         ></label>
+      </div>
+
+      <script>
+         const btn = document.querySelector('.btn-change');
+
+         btn.addEventListener('click', () => {
+            if (document.getElementById('checkbox').checked) {
+               btn.style.setProperty('--bg-btn', '#fed7d7');
+               btn.style.setProperty('--btn-color', '#e53e3e');
+            } else {
+               btn.style.setProperty('--bg-btn', '#C6F6D5');
+               btn.style.setProperty('--btn-color', '#38A169');
+            }
+         });
+      </script>
+   </body>
+</html>
+</body>
+</html>

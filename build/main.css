@@ -1,0 +1,176 @@
+body {
+  font-family: din-2014, sans-serif;
+}
+
+h3 {
+  font-size: 1.7em;
+  color: #849F8C;
+  font-family: din-2014;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.7em;
+  color: #2F4736;
+  font-family: din-2014;
+  font-weight: 700;
+}
+
+/***** Progress Bars *****/
+
+.shim-green {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 255, 0, 0.7);
+}
+
+.shim-green::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(233, 233, 233, 1) 0,
+    rgba(233, 233, 233, 0.9) 50%,
+    rgba(233, 233, 233, 0.8) 100%
+  );
+  -webkit-animation: shimmer 2s ease-out infinite;
+          animation: shimmer 2s ease-out infinite;
+  content: "";
+}
+
+.shim-blue {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 155, 255, 0.7);
+}
+
+.shim-blue::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(233, 233, 233, 1) 0,
+    rgba(233, 233, 233, 0.9) 50%,
+    rgba(233, 233, 233, 0.8) 100%
+  );
+  -webkit-animation: shimmer 2.5s ease-out infinite;
+          animation: shimmer 2.5s ease-out infinite;
+  content: "";
+}
+
+.shim-red {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.shim-red::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(233, 233, 233, 1) 0,
+    rgba(233, 233, 233, 0.9) 50%,
+    rgba(233, 233, 233, 0.8) 100%
+  );
+  -webkit-animation: shimmer 3s ease-out infinite;
+          animation: shimmer 3s ease-out infinite;
+  content: "";
+}
+
+@-webkit-keyframes shimmer {
+  100% {
+    transform: translateX(0%);
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(0%);
+    opacity: 0;
+  }
+}
+
+/*************** Code Blocks **************** */
+
+.bd-clipboard {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  display: none;
+}
+
+.bd-clipboard-b {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.code-wrapper:hover {
+  .bd-clipboard {
+    display:inline-block;
+  }
+}
+
+.code-wrapper-b:hover {
+  .bd-clipboard {
+    display:inline-block;
+  }
+}
+
+.btn-clipboard {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  cursor: pointer;
+}
+
+.code-ray {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.code-wrapper {
+  position:relative;
+  overflow: auto;
+  background: #EBEBFE;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.code-wrapper-b {
+  position:relative;
+  overflow: auto;
+  background: #EBEBFE;
+  border-radius: 4px;
+}
+
+.text-code {
+  color: black;
+  margin: 10px 0;
+  font-size: 14px;
+  word-break: break-word;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.active-box {
+  box-shadow: 0 0 0 2px rgb(105,118,244);
+  transition: box-shadow 0.2s;
+}
+
