@@ -1,19 +1,35 @@
 body {
-  font-family: din-2014, sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  --text-opacity: 1;
+  color: #cbd5e0;
+  color: rgba(203, 213, 224, var(--text-opacity));
+}
+
+h2 {
+  font-size: 3em;
+  --text-opacity: 1;
+  color: #a0aec0;
+  color: rgba(160, 174, 192, var(--text-opacity));
 }
 
 h3 {
-  font-size: 1.7em;
-  color: #849F8C;
-  font-family: din-2014;
+  font-size: 2em;
+  --text-opacity: 1;
+  color: #718096;
+  color: rgba(113, 128, 150, var(--text-opacity));
   font-weight: 700;
 }
 
 h4 {
   font-size: 1.7em;
   color: #2F4736;
-  font-family: din-2014;
   font-weight: 700;
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
 }
 
 /***** Progress Bars *****/
@@ -174,11 +190,32 @@ h4 {
   transition: box-shadow 0.2s;
 }
 
-.font-1 {
+.font-din {
   font-family: din-2014 !important;
 }
 
-.font-2 {
+.font-roc {
   font-family: roc-grotesk, sans-serif !important;
 }
+
+.font-proxima-nova {
+  font-family: proxima-nova, sans-serif;
+}
+
+.font-gill-sans-nova {
+  font-family: gill-sans-nova, sans-serif;
+}
+
+.font-gill-jaf-lapture {
+  font-family: jaf-lapture, serif;
+}
+
+.font-gill-aktiv-grotesk {
+  font-family: aktiv-grotesk, sans-serif;
+}
+
+
+
+
+
 
