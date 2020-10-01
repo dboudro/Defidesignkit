@@ -1,0 +1,399 @@
+
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.typekit.net/ggk0vlq.css">
+        <link rel="stylesheet" href="build/tailwind.css">
+        <link rel="stylesheet" href="css/googlefonts.css">
+		<link rel="stylesheet" href="build/main.css">
+		<title> GG Typography Library</title>
+        <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&family=Alegreya:wght@400;500;700;800;900&family=Anonymous+Pro:wght@400;700&family=Archivo+Narrow:wght@400;500;600;700&family=Arvo:wght@400;700&family=BioRhyme:wght@200;300;400;700;800&family=Cabin:wght@400;500;600;700&family=Cardo:wght@400;700&family=Chivo:wght@300;400;700;900&family=Cormorant:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600;700&family=Eczar:wght@400;500;600;700;800&family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@400;700&family=Lato:wght@100;300;400;700;900&family=Libre+Baskerville:wght@400;700&family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Neuton:wght@200;300;400;700;800&family=Open+Sans:wght@300;400;600;700;800&family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Proza+Libre:wght@400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Source+Serif+Pro:wght@200;300;400;600;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Spectral:wght@200;300;400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="">
+        <style>
+            /* navigation
+            - show navigation always on the large screen devices with (min-width:1024)
+            */
+            @media (min-width: 1024px) {
+            .top-navbar {
+            display: inline-flex !important;
+            }
+            </style>
+            <nav class="flex items-center p-3 flex-wrap" style="background-color: #004982">
+                <a href="#" class="p-2 mr-4 inline-flex items-center">
+                    <span class="text-xl text-white font-bold uppercase tracking-wide"
+                    >GG Design Prototype</span
+                    >
+                </a>
+                <button
+                class="text-white inline-flex p-3 hover:bg-blue-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
+                data-target="#navigation"
+                >
+                <i class="material-icons">menu</i>
+                </button>
+                <div
+                    class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
+                    id="navigation"
+                    >
+                    <div
+                        class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto"
+                        >
+                        <a
+                            href="./index.html"
+                            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-blue-900 hover:text-white"
+                            >
+                            <span>Wireframe</span>
+                        </a>
+                        <a
+                            href="./typography.html"
+                            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-blue-900 hover:text-white"
+                            >
+                            <span>Google Type</span>
+                        </a>
+                        <a
+                            href="./typekit.html"
+                            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-blue-900 hover:text-white"
+                            >
+                            <span>Typekit Type</span>
+                        </a>
+                        <a
+                            href="./colors.html"
+                            class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-blue-900 hover:text-white"
+                            >
+                            <span>Colors</span>
+                        </a>
+
+                    </div>
+                </div>
+            </nav>
+<div class="p-5">
+    <!------- #1 Space Mono ----------->
+    <div class="space-mono py-20 gg-blue">
+        <h1> <span class="font-bold"> 1. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Space Mono fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+    <!------- #2 Work Sans ----------->
+    <div class="work-sans py-20 gg-blue">
+        <h1> <span class="font-bold"> 2. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Work Sans fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+    <!------- #3 Inter ----------->
+    <div class="inter py-20 gg-blue">
+        <h1> <span class="font-bold"> 3. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Inter fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #4 Rubik ----------->
+     <div class="Rubik py-20 gg-blue">
+        <h1> <span class="font-bold"> 4. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Rubik fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #5 Libre Franklin ----------->
+     <div class="libre-franklin py-20 gg-blue">
+        <h1> <span class="font-bold"> 5. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Libre Franklin fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #6 cormorant ----------->
+     <div class="cormorant py-20 gg-blue">
+        <h1> <span class="font-bold"> 6. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Cormorant fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #7 Fira sans ----------->
+     <div class="fira-sans py-20 gg-blue">
+        <h1> <span class="font-bold"> 7. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Fira Sans fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #8 eczar----------->
+     <div class="eczar py-20 gg-blue">
+        <h1> <span class="font-bold"> 8. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Eczar fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+    <!------- #9 Alegreya-Sans----------->
+    <div class="Alegreya-Sans py-20 gg-blue">
+        <h1> <span class="font-bold"> 9. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Alegreya Sans fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+    <!------- #10 Alegreya----------->
+    <div class="Alegreya py-20 gg-blue">
+        <h1> <span class="font-bold"> 10. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Alegreya fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #11 Chivo----------->
+     <div class="Chivo py-20 gg-blue">
+        <h1> <span class="font-bold"> 11. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Chivo fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #12 Inknut-Atiqua ----------->
+     <div class="Inknut-Atiqua py-20 gg-blue">
+        <h1> <span class="font-bold"> 12. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Inknut Atiqua fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #13 Source-Sans-Pro----------->
+     <div class="Source-Sans-Pro py-20 gg-blue">
+        <h1> <span class="font-bold"> 13. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Source Sans Pro fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #14 Source-Serif-Pro----------->
+     <div class="Source-Serif-Pro py-20 gg-blue">
+        <h1> <span class="font-bold"> 14. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Source Serif Pro fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #15 Roboto----------->
+     <div class="Roboto py-20 gg-blue">
+        <h1> <span class="font-bold"> 15. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Roboto fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #16 Roboto Slab ----------->
+     <div class="Roboto-Slab py-20 gg-blue">
+        <h1> <span class="font-bold"> 16. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Roboto Slab fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #17 BioRhyme----------->
+     <div class="BioRhyme py-20 gg-blue">
+        <h1> <span class="font-bold"> 17. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> BioRhyme fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #18 Poppins----------->
+     <div class="Poppins py-20 gg-blue">
+        <h1> <span class="font-bold"> 18. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Poppins fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #19 Archivo-Narrow----------->
+     <div class="Archivo-Narrow py-20 gg-blue">
+        <h1> <span class="font-bold"> 19. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Archivo Narrow fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #20 ----------->
+     <div class="Libre-Baskerville py-20 gg-blue">
+        <h1> <span class="font-bold"> 20. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Libre Baskerville fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #21 ----------->
+     <div class="Playfair-Display py-20 gg-blue">
+        <h1> <span class="font-bold"> 21. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Playfair Display fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #22 ----------->
+     <div class="Karla py-20 gg-blue">
+        <h1> <span class="font-bold"> 22. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Karla fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #23 ----------->
+     <div class="Lora py-20 gg-blue">
+        <h1> <span class="font-bold"> 23. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Lora fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #24 ----------->
+     <div class="Proza-Libre py-20 gg-blue">
+        <h1> <span class="font-bold"> 24. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3>Proza Libre fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #25 ----------->
+     <div class="Spectral py-20 gg-blue">
+        <h1> <span class="font-bold"> 25. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Spectral fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #26 ----------->
+     <div class="ibm-plex-sans py-20 gg-blue">
+        <h1> <span class="font-bold"> 26. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> IBM Plex Sans fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #27 ----------->
+     <div class="crimson-text py-20 gg-blue">
+        <h1> <span class="font-bold"> 27. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Crimson Text fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #28 ----------->
+     <div class="montserrat py-20 gg-blue">
+        <h1> <span class="font-bold"> 28. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3>Montserrat fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #29 ----------->
+     <div class="pt-sans py-20 gg-blue">
+        <h1> <span class="font-bold"> 29. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3>Pt Sans fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #30 ----------->
+     <div class="pt-serif py-20 gg-blue">
+        <h1> <span class="font-bold"> 30. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Pt Serif fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #31 ----------->
+     <div class="lato py-20 gg-blue">
+        <h1> <span class="font-bold"> 31. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Lato fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #32 ----------->
+     <div class="cardo py-20 gg-blue">
+        <h1> <span class="font-bold"> 32. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Cardo fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #33 ----------->
+     <div class="neuton py-20 gg-blue">
+        <h1> <span class="font-bold"> 33. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Neuton fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #34 ----------->
+     <div class="open-sans py-20 gg-blue">
+        <h1> <span class="font-bold"> 34. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Open Sans fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #35 ----------->
+     <div class="inconsolata py-20 gg-blue">
+        <h1> <span class="font-bold"> 35. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Inconsolata fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #36 ----------->
+     <div class="cabin py-20 gg-blue">
+        <h1> <span class="font-bold"> 36. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Cabin fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #37 ----------->
+     <div class="raleway py-20 gg-blue">
+        <h1> <span class="font-bold"> 37. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Raleway fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #38 ----------->
+     <div class="anonymous-pro py-20 gg-blue">
+        <h1> <span class="font-bold"> 38. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3>Anonymous Pro fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #39 ----------->
+     <div class="arvo py-20 gg-blue">
+        <h1> <span class="font-bold"> 39. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Arvo fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+     <!------- #40 ----------->
+     <div class="merriweather py-20 gg-blue">
+        <h1> <span class="font-bold"> 40. A Quick </span> Brown Fox </h1>
+        <h2> A quick brown fox jumps over the lazy dog </h2>
+        <h3> Merriweather fox jumps over the lazy dog </h3>
+        <h4> A quick brown fox jumps over the lazy dog </h4>
+        <p class=""> A quick brown fox jumps over the lazy dog </p>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,533 @@
+/*
+acumin 
+orpheus 
+itc avant garde gothic 
+itc benguiat 
+termina 
+neue haas grotesk 
+futura 
+ neue haas unica 
+minion 
+plantin 
+franklin gothic 
+proxima nova 
+baskervilla 
+mrs eaves 
+sofia 
+roc grotesk 
+antique olive 
+stratos 
+clarendon 
+itc american typewriter 
+filosofia 
+ gill sans 
+din 
+gopher 
+granville 
+soleil 
+neue kabel 
+brandon grotesque 
+lapture 
+nimbus sans 
+warnock 
+tablet gothic 
+alverata 
+calluna 
+degular 
+sabon 
+aktiv grotesk 
+brothersfreight display 
+kepler
+
+
+
+* acumin * * * */
+.acumin-700 { 
+   font-family: acumin-pro,sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.acumin-400 {
+   font-family: acumin-pro,sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+.acumin-wide-700 {
+   font-family: acumin-pro-wide,sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.acumin-wide-400 {
+   font-family: acumin-pro-wide,sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+/* orpheus * * * */
+.orpheus-700 {
+   font-family: orpheuspro,serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.orpheus-400 {
+   font-family: orpheuspro,serif;
+   font-weight: 400;
+   font-style: normal;
+}
+/* itc avant garde gothic * * * */
+.itc-avant-garde-gothic-700 {
+   font-family: itc-avant-garde-gothic-pro,sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.itc-avant-garde-gothic-500 {
+   font-family: itc-avant-garde-gothic-pro,sans-serif;
+   font-weight: 500;
+   font-style: normal;
+}
+.itc-avant-garde-gothic-300 {
+   font-family: itc-avant-garde-gothic-pro,sans-serif;
+   font-weight: 300;
+   font-style: normal;
+}
+/* itc benguiat * * * */
+.itc-benguiat-700 {
+   font-family: itc-benguiat,serif;
+font-weight: 700;
+font-style: normal;
+}
+.itc-benguiat-400 {
+   font-family: itc-benguiat,serif;
+font-weight: 400;
+font-style: normal;
+}
+/* termina * * * */
+.termina-400 {
+   font-family: termina,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.termina-700 {
+   font-family: termina,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* neue haas grotesk * * * */
+.neue-haas-grotesk-400 {
+   font-family: neue-haas-grotesk-display,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.neue-haas-grotesk-700 {
+   font-family: neue-haas-grotesk-display,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.neue-haas-grotesk-text-400 {
+font-family: neue-haas-grotesk-text,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.neue-haas-grotesk-text-700 {
+   font-family: neue-haas-grotesk-text,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* futura * * * */
+.futura-700 {
+   font-family: futura-pt,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.futura-bold-700 {
+font-family: futura-pt-bold,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.futura-400 {
+   font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+/* neue haas unica * * * */
+.neue-haas-unica-700 {
+   font-family: neue-haas-unica,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.neue-haas-unica-400 {
+   font-family: neue-haas-unica,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+/* minion * * * */
+.minion-700 {
+   font-family: minion-pro,serif;
+font-weight: 700;
+font-style: normal;
+}
+.minion-400 {
+   font-family: minion-pro,serif;
+font-weight: 400;
+font-style: normal;
+}
+.minion-display {
+   font-family: minion-pro-display,serif;
+font-weight: 400;
+font-style: normal;
+}
+/* plantin * * * */
+.plantin-700 {
+   font-family: plantin,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.plantin-400 {
+   font-family: plantin,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+/* franklin gothic * * * */
+.franklin-gothic-400  {
+   font-family: franklin-gothic-atf,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.franklin-gothic-700 {
+   font-family: franklin-gothic-atf,sans-serif;
+font-weight: 700;
+font-style: normal;  
+}
+/* proxima nova * * * */
+.proxima-nova-700 {
+   font-family: proxima-nova,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.proxima-nova-400 {
+font-family: proxima-nova,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+/* baskerville * * * */
+.baskerville-400{
+   font-family: baskerville-urw,serif;
+font-weight: 400;
+font-style: normal;
+}
+.baskerville-700 {
+   font-family: baskerville-urw,serif;
+font-weight: 700;
+font-style: normal;
+}
+/* mrs eaves * * * */
+.mrs-eaves-400 {
+   font-family: mrs-eaves,serif;
+font-weight: 400;
+font-style: normal;
+}
+.mrs-eaves-700 {
+   font-family: mrs-eaves,serif;
+font-weight: 700;
+font-style: normal;
+}
+/* sofia * * * */
+.sofia {
+   font-family: sofia-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.sofia-400 {
+   font-family: sofia-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+/* roc grotesk * * * */
+.roc-grotesk-700 {
+   font-family: roc-grotesk,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.roc-grotesk-400 {
+   font-family: roc-grotesk,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+/* antique olive * * * */
+.antique-olive-400 {
+   font-family: antique-olive,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.antique-olive-700 {
+   font-family: antique-olive,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* stratos * * * */
+.stratos-400 {
+   font-family: stratos,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.stratos-700 {
+   font-family: stratos,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* clarendon * * * */
+.clarendon-400 {
+   font-family: clarendon-text-pro,serif;
+font-weight: 400;
+font-style: normal;
+}
+.clarendon-700 {
+   font-family: clarendon-text-pro,serif;
+font-weight: 700;
+font-style: normal;
+}
+/* itc american typewriter * * * */
+.itc-american-typewriter-700 {
+font-family: itc-american-typewriter,serif;
+font-weight: 700;
+font-style: normal;
+}
+.itc-american-typewriter-300 {
+   font-family: itc-american-typewriter,serif;
+font-weight: 300;
+font-style: normal;
+}
+/* filosofia * * * */
+.filosofia-400 {
+font-family: filosofia,serif;
+font-weight: 400;
+font-style: normal;
+}
+.filosofia-700 {
+   font-family: filosofia,serif;
+font-weight: 700;
+font-style: normal;
+}
+/* gill sans * * * */
+.gill-sans-700 {
+   font-family: gill-sans-nova,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.gill-sans-400 {
+   font-family: gill-sans-nova,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.gill-sans-deco {
+   font-family: gill-sans-nova-deco,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+/* din * * * */
+.din-400 {
+   font-family: din-2014,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.din-700 {
+   font-family: din-2014,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* gopher * * * */
+.gopher-400 {
+   font-family: gopher,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.gopher-700 {
+   font-family: gopher,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* granville * * * */
+.granville-400 {
+   font-family: granville,serif;
+font-weight: 400;
+font-style: normal;
+}
+.granville-700 {
+   font-family: granville,serif;
+font-weight: 700;
+font-style: normal;
+}
+/* soleil * * * */
+.soleil-700 {
+   font-family: soleil,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.soleil-400 {
+   font-family: soleil,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+/* neue kabel * * * */
+.neue-kabel-700 {
+   font-family: neue-kabel,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.neue-kabel-400 {
+   font-family: neue-kabel,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+/* brandon grotesque * * * */
+.brandon-grotesque-400 {
+   font-family: brandon-grotesque,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.brandon-grotesque-700 {
+   font-family: brandon-grotesque,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* lapture * * * */
+.lapture-400 {
+   font-family: jaf-lapture,serif;
+font-weight: 400;
+font-style: normal;
+}
+.lapture-700 {
+   font-family: jaf-lapture,serif;
+font-weight: 700;
+font-style: normal;
+}
+.lapture-display {
+   font-family: jaf-lapture-display,serif;
+font-weight: 400;
+font-style: normal;
+}
+.lapture-display-700 { 
+   font-family: jaf-lapture-display,serif;
+font-weight: 700;
+font-style: normal;
+}
+/* nimbus sans * * * */
+.nimbus-sans-400 {
+   font-family: nimbus-sans,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.nimbus-sans-700 {
+   font-family: nimbus-sans,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* warnock * * * */
+.warnock {
+   font-family: warnock-pro,serif;
+font-weight: 400;
+font-style: normal;
+}
+.warnock-700 {
+   font-family: warnock-pro,serif;
+font-weight: 700;
+font-style: normal;
+}
+.warnock-display {
+   font-family: warnock-pro-display,serif;
+font-weight: 400;
+font-style: normal;
+}
+/* tablet gothic * * * */
+.tablet-gothic-400 {
+   font-family: tablet-gothic,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.tablet-gothic-700 {
+   font-family: tablet-gothic,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.tablet-gothic-wide {
+   font-family: tablet-gothic-wide,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* alverata * * * */
+.alverta-400 {
+   font-family: alverata,serif;
+font-weight: 400;
+font-style: normal;
+}
+.alverta-700 {
+   font-family: alverata,serif;
+font-weight: 700;
+font-style: normal;
+}
+/* calluna * * * */
+.calluna-400 {
+   font-family: calluna,serif;
+font-weight: 400;
+font-style: normal;
+} 
+.calluna-700 {
+   font-family: calluna,serif;
+font-weight: 700;
+font-style: normal;
+}
+/* degular * * * */
+.degular-400 {
+   font-family: degular,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.degular-700 {
+   font-family: degular,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* sabon * * * */
+.sabon-400 {
+   font-family: linotype-sabon,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.sabon-700 {
+   font-family: linotype-sabon,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* aktiv grotesk * * * */
+.aktiv-grotesk-400 {
+   font-family: aktiv-grotesk,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.aktiv-grotesk-700 {
+   font-family: aktiv-grotesk,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* brothersfreight display * * * */
+.brothers-400 {
+   font-family: brothers,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.brothers-700 {
+   font-family: brothers,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+/* kepler */
+.kepler-400 {
+   font-family: kepler-std,serif;
+font-weight: 400;
+font-style: normal;
+}
+.kepler-700 {
+   font-family: kepler-std,serif;
+font-weight: 700;
+font-style: normal;
+}

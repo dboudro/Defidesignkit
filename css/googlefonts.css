@@ -1,0 +1,163 @@
+/* #1 Space Mono * * * * * * * * *             
+/* #2 Work Sans  * * * * * * * * *             
+/* #3 Inter  * * * * * * * * *           
+/* #4 Rubik  * * * * * * * * *             
+/* #5 Libre Franklin  * * * * * * * * *             
+/* #6 Cormorant  * * * * * * * * *             
+/* #7 Fira Sans  * * * * * * * * */          
+/* #8 Eczar * * * * * * * * *   
+/* #9 Alegreya Sans  * * * * * * * * *   
+/* #10 Alegreya  * * * * * * * * *   
+/* #11 Chivo  * * * * * * * * *   
+/* #12 Inknut Atiqua * * * * * * * * *   
+/* #13 Source Sans Pro * * * * * * * * *   
+/* #14  Source Serif Pro * * * * * * * * *   
+/* #15 Roboto  * * * * * * * * *   
+/* #16 Roboto Slab  * * * * * * * * *   
+/* #17 BioRhyme * * * * * * * * *   
+/* #18 Poppins * * * * * * * * *   
+/* #19 Archivo Narrow  * * * * * * * * *   
+/* #20 Libre Baskerville  * * * * * * * * *   
+/* #21 Playfair Display * * * * * * * * *   
+/* #22 Karla * * * * * * * * *   
+/* #23 Lora * * * * * * * * *   
+/* #24 Proza Libre * * * * * * * * *   
+/* #25 Spectral * * * * * * * * * 
+/* #26 ibm plex sans* * * * * * * * * 
+/* #27 crimson text* * * * * * * * * 
+/* #28  montserrat * * * * * * * * * 
+/* #29 pt sans * * * * * * * * * 
+/* #30 pt serif * * * * * * * * * 
+/* #31 lato * * * * * * * * * 
+/* #32 cardo* * * * * * * * *   
+/* #33 neuton * * * * * * * * *   
+/* #34 open sans * * * * * * * * *   
+/* #35 inconsolata * * * * * * * * *   
+/* #36 cabin * * * * * * * * *   
+/* #37 raleway * * * * * * * * *   
+/* #38 anonymous pro * * * * * * * * *   
+/* #39 arvo * * * * * * * * *   
+/* #40 merriweather * * * * * * * * *   
+
+/ * * * * * * * * * Top 40 Google Font List by Typewolf * * * * * * * / 
+space mono / work sans / inter / rubik / libre franklin / cormorant / fira sans / 
+Chivo / Inknut Atiqua / Source Sans Pro / Source Serif Pro / Roboto / Roboto Slab / BioRhyme / Poppins 
+/ Archivo Narrow / Libre Baskerville / Playfair Display / Karla / Lora / Proza Libre / Spectral
+ibm plex sans / crimson text / montserrat /pt sans / pt serif / lato / cardo / neuton / open sans 
+/ inconsolata / cabin /raleway / anonymous pro / arvo / merriweather 
+
+*/ 
+
+/* 400 400i 700 700i  */   
+.space-mono { font-family: 'Space Mono', monospace; }
+/* 100-900i */             
+.work-sans { font-family: 'Work Sans', sans-serif; }
+/* 100-900  */
+.inter { font-family: 'Inter', sans-serif; }
+/* 300-900i */           
+.rubik { font-family: 'Rubik', sans-serif }
+/* 100-900i */
+.libre-franklin { font-family: 'Libre Franklin', sans-serif; }
+/* 300-700i */ 
+.cormorant { font-family: 'Cormorant', serif; }
+/* 100-900i */
+.fira-sans { font-family: 'Fira Sans', sans-serif; }
+/* 400-800 */
+.eczar {font-family: 'Eczar', serif;}
+/* 100i 300i 400i 500i 700i 800i 900i */
+.Alegreya-Sans {font-family: 'Alegreya Sans', sans-serif;}
+/*400i 500i 700i 800i 900i */
+.Alegreya {font-family: 'Alegreya', serif;} 
+/* 300i 400i 700i 900i  */
+.Chivo {font-family: 'Chivo', sans-serif;}
+/* 300 - 900 */
+.Inknut-Atiqua {font-family: 'Inknut Antiqua', serif;}
+/*200i 300i 400i 600i 700i 900i */
+.Source-Sans-Pro {font-family: 'Source Sans Pro', sans-serif;}
+/*200i 300i 400i 600i 700i 900i */
+.Source-Serif-Pro {font-family: 'Source Serif Pro', serif;}
+/* 100i 300i 400i 500i 700i 900i */
+.Roboto {font-family: 'Roboto', sans-serif;}
+/*1-900i  */
+.Roboto-Slab {font-family: 'Roboto Slab', serif;}
+/* 200 300 400 700 800*/
+.BioRhyme {font-family: 'BioRhyme', serif;}
+/*1-900i */
+.Poppins {font-family: 'Poppins', sans-serif;}
+/* 400-700i*/
+.Archivo-Narrow {font-family: 'Archivo Narrow', sans-serif;}
+/*400i 700 */
+.Libre-Baskerville {font-family: 'Libre Baskerville', serif;}
+/*400-900i */
+.Playfair-Display {font-family: 'Playfair Display', serif;}
+/*400i 700i */
+.Karla {font-family: 'Karla', sans-serif;}
+/*400-700i */
+.Lora {font-family: 'Lora', serif;}
+/* 400-800i*/
+.Proza-Libre {font-family: 'Proza Libre', sans-serif;}
+/* 200-800i*/
+.Spectral {font-family: 'Spectral', serif;}
+/* 100-700i*/
+.ibm-plex-sans {font-family: 'IBM Plex Sans', sans-serif;}
+/*400i 600i 700i */
+.crimson-text {font-family: 'Crimson Text', serif;}
+/*100-900i */
+.montserrat {font-family: 'Montserrat', sans-serif;}
+/*400i 700i */
+.pt-sans {font-family: 'PT Sans', sans-serif;}
+/*400i 700i */
+.pt-serif {font-family: 'PT Serif', serif}
+/* 100i 300i 400i 700i 900i*/
+.lato {font-family: 'Lato', sans-serif;}
+/* 400i 700*/
+.cardo {font-family: 'Cardo', serif;}
+/*200 300 400i 700 800  */
+.neuton {font-family: 'Neuton', serif;}
+/* 300i 400i 600i 700i 800i*/
+.open-sans {font-family: 'Open Sans', sans-serif;}
+/* 200-900*/
+.inconsolata {font-family: 'Inconsolata', monospace;}
+/* 400-700i*/
+.cabin {font-family: 'Cabin', sans-serif;}
+/* 100-900i*/
+.raleway {font-family: 'Raleway', sans-serif;}
+/* 400i 700i*/
+.anonymous-pro {font-family: 'Anonymous Pro', monospace;}
+/*400i 700i */
+.arvo {font-family: 'Arvo', serif;}
+/*300i 400i 700i 900i */
+.merriweather {font-family: 'Merriweather', serif;}
+/* */
+
+.gg-blue { color: #004982; }
+.gg-green { color: #9BCA3B;}
+              
+
+
+
+h1 {
+    font-size: 4em;
+
+  }
+  
+  h2 {
+    font-size: 3em;
+  }
+  
+  h3 {
+    font-size: 2em;
+
+    font-weight: 700;
+  }
+  
+  h4 {
+    font-size: 1.7em;
+    font-weight: 700;
+  }
+
+
+
+
+
+        
