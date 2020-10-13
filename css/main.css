@@ -1,4 +1,5 @@
 body {
+  font-family: neue-haas-grotesk-display,sans-serif;
 }
 
 h1 {
@@ -185,6 +186,9 @@ transition: box-shadow 0.2s;
 
 .font-gill-aktiv-grotesk {
   font-family: aktiv-grotesk, sans-serif;
+}
+.termina {
+  font-family: termina,sans-serif;
 }
 
 
